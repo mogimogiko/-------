@@ -1,0 +1,13 @@
+/* 共通スタイル */
+body {
+  font-family: "Hachi Maru Pop", cursive;
+  font-weight: 1000;
+  font-style: normal;
+  background-image: url(/myportfolio/img/mogiko.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: rgba(r, g, b, a);
+}
