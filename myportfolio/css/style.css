@@ -11,3 +11,8 @@ body {
   background-blend-mode: lighten;
   background-color: rgba(r, g, b, a);
 }
+
+/* PC用style */
+@media screen and(min-width: 780px) {
+  
+}
