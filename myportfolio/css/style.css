@@ -3,16 +3,35 @@ body {
   font-family: "Hachi Maru Pop", cursive;
   font-weight: 1000;
   font-style: normal;
-  background-image: url(/myportfolio/img/mogiko.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  background-blend-mode: lighten;
-  background-color: rgba(r, g, b, a);
+  color: gray;
+  background-color: bisque;
 }
 
-/* PC用style */
-@media screen and(min-width: 780px) {
+
+/* PC用スタイル */
+@media screen and (min-width: 768px){
+  /* ヘッダー */
+  header {
+    display: flex;
+    background-color: white;
+    height: 50px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  /* ヘッダーのロゴ */
+  .header-logo {
+    font-size: 25px;
+    margin: 0;
+  }
+  a:visited {
+    color: gray;
+  }
+}
+
+/* 携帯用style */
+@media screen and (max-width: 767px) {
   
 }
